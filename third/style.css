@@ -1,0 +1,75 @@
+html body {
+    height: 700px;
+    width: 700px;
+
+}
+
+.header {
+    height: 12%;
+    width: 100%;
+    background: #3b3b3b;
+    
+}
+
+.buttons {
+    font-size: 50%%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.apple {
+    top: 28px;
+    left: 35px;
+}
+
+.google {
+top: 28px;
+left: 70px;
+}
+    
+.wrapper {
+    display: flex;
+    
+}
+
+li {
+    list-style: none;
+
+}
+
+.ul1 {
+    margin-top: 89px;
+}
+
+.container1 {
+    flex-direction: row;
+    height: 100%;
+}
+
+.container2 {
+    flex-direction: row;
+    height: 100%;
+    margin: 184px 1px 1px 1px;
+    
+}
+.square {
+    position: absolute;
+    height: 230px;
+    width:308px;
+    background: #d7dadb;
+    margin: -158px 5px 5px 41px;
+}
+
+p {
+ text-align: justify;
+    
+}
+
+.footer {
+    height: 12%;
+    width: 700px;
+    background: #3b3b3b;
+    
+}
