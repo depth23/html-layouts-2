@@ -1,75 +1,94 @@
 html body {
-    height: 700px;
-    width: 700px;
-
+  height: 100%;
+  width: 100%;
+  max-width: 80em;
+  position: relative;
+  margin: 0 auto;
+  
 }
 
 .header {
-    height: 12%;
-    width: 100%;
-    background: #3b3b3b;
+  height: 5em;
+  width: 100%;
+  background: #3b3b3b;
     
 }
 
 .buttons {
-    font-size: 50%%;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
+  height: 2.5em;
+  width: 2em;   
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+
 }
 
 .apple {
-    top: 28px;
-    left: 35px;
+  top: 1em;
+  left: 2em;
+
 }
 
 .google {
-top: 28px;
-left: 70px;
+  top: 1em;
+  left: 4em;
+
 }
     
 .wrapper {
-    display: flex;
+  display: flex;
+  margin-bottom: 10em;
     
 }
 
 li {
-    list-style: none;
+  list-style: none;
+
+}
+
+ul {
+  font-size: 2em;
 
 }
 
 .ul1 {
-    margin-top: 89px;
+  margin-top: 1em;
 }
 
 .container1 {
-    flex-direction: row;
-    height: 100%;
+  flex-direction: row;
+  height: 100%;
+
 }
 
 .container2 {
-    flex-direction: row;
-    height: 100%;
-    margin: 184px 1px 1px 1px;
+  flex-direction: row;
+  height: 100%;
+  margin: 184px 1px 1px 1px;
     
 }
+
 .square {
-    position: absolute;
-    height: 230px;
-    width:308px;
-    background: #d7dadb;
-    margin: -158px 5px 5px 41px;
+  float: right;
+  height: 32.7em;
+  width:37.4em;
+  background: #d7dadb;
+  margin-top: -10em;
+  margin-bottom: 2em;
+
 }
 
 p {
- text-align: justify;
+  text-align: justify;
+  font-size: 1em;
     
 }
 
 .footer {
-    height: 12%;
-    width: 700px;
-    background: #3b3b3b;
+  height: 5em;
+  width: 100%;
+  background: #3b3b3b;
     
 }

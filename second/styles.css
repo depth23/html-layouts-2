@@ -1,109 +1,120 @@
 html body {
-    height: 100%;
-    width: 100%;
-    background: #c9c9c9;
-;
-}
-
-.wrapper {
-    padding: 4% 1% 5% 1%;
-    
+  height: 100%;
+  width: 100%;
+  background: #c9c9c9;
+  
 }
 
 .container {
-    min-height: 100%;
-    min-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  fotn font-size: 2em;
 
+}
+
+.wrapper {
+  padding: 4% 1% 5% 1%;
+    
 }
 
 .container1 {
-background: white;
-    min-height:  height: 30%;
-    width: 75%;
-    margin-left: 12%;}
+  background: white;
+  min-height:  height: 30%;
+  width: 80%;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-left: auto;
 
-#p1 {
-     text-align: justify;
-     margin: 0% 7% 7% 7%;;
+}
+
+.p1 {
+  font-size: 1.5em;
+  text-align: justify;
+  margin: 0% 7% 7% 7%;;
     
 }
 
-#clickRed {
-    height: 35px;
-    width: 15%;
-    background: red;
-    display: inline-block;
-    margin: 0% 2% 0% 7%;
+.clickRed {
+  height: 3em;
+  width: 18%;
+  background: red;
+  display: inline-block;
+  margin: 0% 2% 0% 7%;
     
 }
 
-#clickBlue {
-    height: 35px;
-    width: 15%;
-    background: #6ca9e6;
-    display: inline-block;
+.clickBlue {
+  height: 3em;
+  width: 18%;
+  background: #6ca9e6;
+  display: inline-block;
+  
+}
+
+button {
+  text-align: center;
+  border: none;
+  margin-top: 0.3em;
+  color: white;
+  font-size: 1.25em;
+  font-family: Verdana; 
     
 }
 
-.click {
-    text-align: center;
-    margin: 7% 2% 2% 2%;
-    color: white;
-    font-size: 20px;
-    font-family: Verdana; 
-    
-}
-
-div .container2 {
-    margin-top: 5%;
-    margin-left: 12%;
-    min-height: 50%;
-    width: 75%;
-    background: white;
-    margin-bottom: 10%;
+.container2 {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50%;
+  width: 80%;
+  background: white;
+  margin-bottom: 10%;
      
 }
 
 img {
-    height: 59%;
-    width: 85%;
-    margin-top: 2%;
-    margin-left: 7%;
+  height: 35em;
+  width: 59em;
+  margin-top: 2%;
+  margin-left: 7%;
     
 }
 
-#p2 {
-    text-align: justify;
-    margin: 7% 7% 0% 7%;
+.p2 {
+  font-size: 1.5em;
+  text-align: justify;
+  margin: 7% 7% 0% 7%;
     
 }
 
 a {
-    float: right;
-    font-size: 23px;
-    font-family: serif;
-    margin-bottom: 5px;
-    color: white;
+  float: right;
+  position: relative;
+  left: 1.3em;
+  font-size: 2em;
+  font-family: serif;
+  margin-bottom: 0.5em;
+  color: white;
     
 }
 
 .footer {
-    height: 10%;
-    width: 100%;
-    background: #363636;
+  height: 20%;
+  width: 100%;
+  background: #363636;
     
 }
 
-#apple {
-    margin-right: 4%;
-    margin-top: 1%;
-    text-decoration: none;
+.apple {
+  margin-right: 4%;
+  margin-top: 3%;
+  text-decoration: none;
     
 }
 
-#google {
-    margin-right: 13%; 
-    margin-top: 1%;
-    text-decoration: none;
+.google {
+  margin-right: 13%; 
+  margin-top: 3%;
+  text-decoration: none;
 
 }
